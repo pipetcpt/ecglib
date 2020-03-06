@@ -162,7 +162,7 @@ namespace ecglib {
 								}
 							} else {
 								ok = true;
-								curdiff = abs(pi->first - beats[i].rpeak);
+								// curdiff = abs(pi->first - beats[i].rpeak); // ERROR occurs when installing
 							}
 						}
 
